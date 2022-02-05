@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-07T14:52:15.670Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3479415000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.elements.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Enter Forms",
+        "description": "",
+        "id": "forms;enter-forms",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5660453300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user tools page and click to demo site",
+            "match": {
+              "location": "com.elements.step_definitions.BaseStepDefs.the_user_tools_page_and_click_to_demo_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123002100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigate to \"Forms\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Forms\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.elements.step_definitions.BaseStepDefs.the_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2150821300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click to \"Practice Form\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Form\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.elements.step_definitions.ElementsStepDefs.the_user_click_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401288100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enter \"Ayşe\" and \"Akkoca\" and \"ayse@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ayşe\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Akkoca\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"ayse@gmail.com\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.elements.step_definitions.FormsStepDefs.the_user_enter_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71736100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user radio button famela click",
+            "match": {
+              "location": "com.elements.step_definitions.FormsStepDefs.the_user_radio_button_famela_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423952800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user enter \"1234567890\" and enter dateBird",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234567890\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.elements.step_definitions.FormsStepDefs.the_user_enter_and_enter_dateBird(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d97.0.4692.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-A37C2DF\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.8\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\ayse1\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: df9a0638963cd7e9aedb09fa6037c0bb\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy20.sendKeys(Unknown Source)\r\n\tat com.elements.step_definitions.FormsStepDefs.theUserEnterSubjectAndCheckBoxClick(FormsStepDefs.java:49)\r\n\tat ✽.the user enter subject\"e\" and check box click(file:///C:/Users/ayse1/IdeaProjects/ToolsQa/src/test/resources/features/forms.feature:11)\r\n",
+              "duration": 100248300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "the user enter subject\"e\" and check box click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"e\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.elements.step_definitions.FormsStepDefs.theUserEnterSubjectAndCheckBoxClick(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the user enter \"path\" and current address \"Kayseri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"path\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Kayseri\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.elements.step_definitions.FormsStepDefs.theUserEnterAndCurrentAddress(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user select sity and click submit",
+            "match": {
+              "location": "com.elements.step_definitions.FormsStepDefs.the_user_select_sity_and_click_submit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@forms"
+          }
+        ]
+      }
+    ],
+    "name": "Forms",
+    "description": "",
+    "id": "forms",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/forms.feature",
+    "tags": []
+  }
+]
